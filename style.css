@@ -1,0 +1,23 @@
+.img1{
+    width: 250;
+    height: 250px;
+    border-radius: 25px;
+}
+.img2{
+    width: 250;
+    height: 250px;
+    border-radius: 25px;
+
+}
+.img3{
+    width: 250;
+    height: 250px;
+    border-radius: 25px;
+
+}
+.searchbox{
+    padding-bottom: 25px;
+}
+.aboutText{
+    text-align: center;
+}
