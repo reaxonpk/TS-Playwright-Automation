@@ -1,23 +1,120 @@
-.img1{
-    width: 250;
-    height: 250px;
-    border-radius: 25px;
+/* General body and text styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
-.img2{
-    width: 250;
-    height: 250px;
-    border-radius: 25px;
 
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
 }
-.img3{
-    width: 250;
-    height: 250px;
-    border-radius: 25px;
 
-}
-.searchbox{
-    padding-bottom: 25px;
-}
-.aboutText{
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Main section styling */
+main {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Search box section */
+.searchbox {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f39c12;
+}
+
+/* Image styling */
+section img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Image grid layout */
+section img {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+/* Description section */
+section h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 14px;
 }
