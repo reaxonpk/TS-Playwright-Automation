@@ -2,7 +2,7 @@
 let numbersArray: number[] = [1, 2, 3, 4];
 let stingAndNumsArr: (number | string)[] = ["Pesho", "Gosho", 2, "3"];
 
-let fruits: string[] = ["Apple", "Banana", "Pear", "Peach", "Grape"];
+// let fruits: string[] = ["Apple", "Banana", "Pear", "Peach", "Grape"];
 let firstEl: string = fruits[1];
 let secondEl: string = fruits[3];
 
