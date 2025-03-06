@@ -1,3 +1,4 @@
+export {}
 // 1. Create an array of strings and add a new element at the end of the array. Log the result.
 let fruits: string[] = ["apple", "banana", "cherry"];
 fruits.push("orange");
