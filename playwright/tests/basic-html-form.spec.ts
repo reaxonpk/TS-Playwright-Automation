@@ -82,6 +82,7 @@ const fillFormFields = async (page: Page, data: FormData) => {
 test.describe("Basic HTML Form Tests", () => {
 
   // ✅ Navigate to the form page before each test
+  // 📌 BASE_HTML_FORM_URL=https://testpages.herokuapp.com/styled/basic-html-form-test.html
   test.beforeEach("Navigate to the form page", async ({ page }) => {
     const url = process.env.BASE_HTML_FORM_URL as string;
     await page.goto(url);
